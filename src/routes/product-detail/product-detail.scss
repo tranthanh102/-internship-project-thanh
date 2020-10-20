@@ -51,7 +51,7 @@
       }
 
       .tab {
-        border: 1px solid $primary;
+        border: 1px solid blueviolet;
         .tab-header {
           display: flex;
           .tab-item {
@@ -59,9 +59,9 @@
             max-width: 50%;
             font-size: 1.6rem;
             text-transform: uppercase;
-            border-bottom: 1px solid $primary;
+            border-bottom: 1px solid blueviolet;
             transition: .3s ease;
-            color: $primary;
+            color: blueviolet;
             background: $white;
             padding: 8px 10px;
             cursor: pointer;
@@ -70,7 +70,7 @@
             &:hover,
             &.active {
               color: $white;
-              background: $primary;
+              background: blueviolet;
             }
           }
         }
@@ -91,7 +91,7 @@
               padding: 10px;
               display: flex;
               &:not(:last-of-type) {
-                border-bottom: 1px solid $primary;
+                border-bottom: 1px solid blueviolet;
               }
               h4, p {
                 font-size: 1.6rem;
@@ -124,10 +124,14 @@
       .product-status {
         font-size: 2rem;
         padding: 3px 12px;
-        border: 2px solid $primary;
-        color: $primary;
+        border: 2px solid blueviolet;
+        color: blueviolet;
         font-weight: bold;
         display: inline;
+      }
+      .product-status:hover{
+        background-color: blueviolet;
+        color: aliceblue;
       }
       .price {
         margin: 2rem 0;
@@ -150,12 +154,12 @@
           font-size: 16px;
           text-align: center;
           line-height: 40px;
-          border: 1px solid $primary;
+          border: 1px solid blueviolet;
           margin-right: 8px;
           font-weight: 600;
           &:hover,
           &.active {
-            background: $primary;
+            background: blueviolet;
             color: $white;
             cursor: pointer;
           }
@@ -171,7 +175,7 @@
               left: 50%;
               transform: translate(-50%, -50%) rotate(45deg);
               content: '';
-              background: $primary;
+              background: blueviolet;
             }
           }
         }
@@ -189,14 +193,14 @@
           &.plus,
           &.minus {
             width: 35px;
-            color: $primary;
-            border: 1px solid $primary;
+            color: blueviolet;
+            border: 1px solid blueviolet;
             cursor: pointer;
           }
           &.value {
             width: 50px;
-            border-top: 1px solid $primary;
-            border-bottom: 1px solid $primary;
+            border-top: 1px solid blueviolet;
+            border-bottom: 1px solid blueviolet;
           }
         }
       }
@@ -217,7 +221,7 @@
             transform: translateX(-50%);
             width: calc(100% - 30px);
             height: 100%;
-            border: 1px solid $primary;
+            border: 1px solid blueviolet;
             box-shadow: inset 0 0 0 3px $white;
             transition: .3s ease;
             opacity: 0;
@@ -240,7 +244,7 @@
             font-size: 16px;
             font-weight: 600;
             span {
-              color: $primary;
+              color: blueviolet;
             }
           }
         }

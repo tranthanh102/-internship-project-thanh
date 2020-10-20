@@ -1,0 +1,71 @@
+.container {
+
+  .input-login {
+    width: 500px;
+    height: 60px;
+    border: 2px solid blueviolet;
+    margin-left: 280px;
+  }
+ .login-signup{
+   width: 90px;
+   height: 50px;
+   background-color: blueviolet;
+   border-radius: 3px;
+   color: white;
+   font-size: 15px;
+   position: absolute;
+   margin-top: -78px;
+   margin-left: 3%;
+
+ }
+ .login-signup:hover{
+   background-color: seagreen;
+   color: wheat;
+ }
+ .text-user{
+   font-size: 16px;
+   color: blueviolet;
+   margin-left: 45%;
+ }
+ @media (max-width: 320px) {
+   .input-login{
+    width: 235px;
+    height: 30px;
+    margin-left: 26px;
+   }
+   .text-user{
+     margin: 0 29px;
+   }
+   .login-signup{
+     margin-top: 50px;
+    
+   }
+   .login-signup{
+     position: unset;
+     margin-left: 82px;
+   }
+ }
+ @media (max-width: 426px) {
+  .input-login{
+   width: 235px;
+   height: 30px;
+   margin-left: 26px;
+  }
+  .text-user{
+    margin: 0 29px;
+  }
+  .login-signup{
+    margin-top: 50px;
+   
+  }
+  .login-signup{
+    position: unset;
+    margin-left: 82px;
+  }
+}
+@media (max-width: 768px) and (min-width: 426px){
+  .input-login{
+    margin-left: 24px;
+  }
+}
+}

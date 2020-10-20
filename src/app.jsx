@@ -16,6 +16,7 @@ import {
   BrowserRouter as Router,
   Route,
 } from "react-router-dom";
+import SignUp from 'components/sign-up/sign-up';
 
 const store = createStore(
   RootReducer
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/" exact component={Homepage} />
           <Route path="/category/:category" exact component={Category} />
           <Route path="/product-detail" exact component={ProductDetail} />
+          <Route path="/sign-up" exact component={SignUp}/>
           <Footer />
         </div>
       </Router>

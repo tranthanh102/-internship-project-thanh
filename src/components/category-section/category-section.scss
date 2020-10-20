@@ -1,0 +1,67 @@
+.category-section {
+  .category-carousel {
+    .alice-carousel {
+      .alice-carousel__wrapper {
+        ul {
+          li {
+            height: 400px;
+            padding: 0 2px;
+
+            img {
+              width: 100%;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.alice-carousel__next-btn {
+  .alice-carousel__next-btn-wrapper {
+    .alice-carousel__next-btn-item span::after {
+      background: url("../../assets/icons/icon-angle-right.png") no-repeat;
+      position: absolute;
+      top: 23%;
+      right: -6%;
+      width: 50px;
+      content: "a";
+      color: transparent;
+      height: 100px;
+      ;
+
+      @media (max-width: 320px) {
+        right: -21%;
+        top: 17%;
+      }
+    }
+
+  }
+
+ 
+}
+
+.alice-carousel__prev-btn {
+  .alice-carousel__prev-btn-wrapper {
+    .alice-carousel__prev-btn-item span::after {
+      background: url("../../assets/icons/icon-angle-left.png") no-repeat;
+      position: absolute;
+      top: 23%;
+      left: -3%;
+      width: 50px;
+      content: "a";
+      color: transparent;
+      height: 100px;
+
+      @media (max-width: 320px) {
+        left: -9%;
+        top: 17%;
+      }
+
+    }
+
+  }
+
+}

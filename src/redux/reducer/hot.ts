@@ -1,6 +1,5 @@
 import { bindActionCreators } from "redux";
-import mockupDataNewest from "../../data/mockupDataNewest";
-
+import mockupDataHot from "../../data/mockupDataHot";
 type Action = {
   type: string;
   number: number;
@@ -9,11 +8,7 @@ type Action = {
   phoneNumber: string;
   id: number;
 };
-
-export const mockupDataCategory = (
-  state = mockupDataNewest,
-  action: Action
-) => {
+export const mockupDataHots = (state = mockupDataHot, action: Action) => {
   switch (action.type) {
     default:
       return state;

@@ -55,7 +55,7 @@ a {
   font-weight: 500;
 
   &:hover {
-    color: $primary;
+    color: blueviolet;
     text-decoration: none;
   }
 }
@@ -83,10 +83,10 @@ input {
 }
 
 .title-group {
-  font-size: 14px;
+  font-size: 19px;
   font-family: 'Barlow', sans-serif;
   text-transform: uppercase;
-  color: $black;
+  color: blueviolet;
 }
 
 p {
@@ -96,11 +96,15 @@ p {
 .title-block {
   font-size: 2.8rem;
   text-transform: uppercase;
-  color: $primary;
+  color: blueviolet;
   margin: 3.5rem 0;
   text-align: center;
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
+}
+
+.title-block:hover {
+  color: red;
 }
 
 .price,
