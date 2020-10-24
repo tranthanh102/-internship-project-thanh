@@ -16,7 +16,7 @@ export const HomepageCarousel = () => {
   const onSlideChanged = (e) => {
     setcurrentIndex(e.item)
   }
-  
+
   return (
     <div className="homepage-carousel">
       <AliceCarousel autoPlay={true} autoPlayInterval={2000} buttonsDisabled={true} slideToIndex={currentIndex} onSlideChanged={onSlideChanged}>

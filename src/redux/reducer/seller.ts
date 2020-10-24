@@ -7,9 +7,7 @@ type Action = {
   phoneNumber: string;
   id: number;
 };
-export const mockupDataSeller = (
-  state = mockupDataDiscount,
-  action: Action
+export const mockupDataSeller = ( state = mockupDataDiscount, action: Action
 ) => {
   switch (action.type) {
     default:

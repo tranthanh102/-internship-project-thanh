@@ -13,7 +13,7 @@ export const CategorySection = ({ title, link, dataProduct, isSlider }) => {
   const dataSeller = useSelector((state) => state.mockupDataSeller);
   const dataSelling = useSelector((state) => state.mockupDataSelling);
   const dataHots = useSelector((state) => state.mockupDataHots);
- 
+
   return (
     <div className="container">
       <div className="category-section section-wrap align-items-center justify-content-center">
